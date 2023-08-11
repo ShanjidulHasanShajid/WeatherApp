@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Mono", monospace;
+    /* color: whitesmoke; */
+}
+
+form {
+    background: #fff;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: tomato;
+}
+form input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form button {
+    background: tomato;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+}
+form .fa-magnifying-glass {
+    align-self: center;
+    color: #777;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #194c41;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.subContainer {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: url(day2.jpg);
+    /* background-image: url(night.png); */
+    background-size: cover;
+    width: 82vw;
+    height: 80vh;
+    box-shadow: 0 0 62px #000000;
+    border-radius: 30px;
+}
+.subContainer-top {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: bisque; */
+    width: 82vw;
+    height: 50vh;
+}
+.present-forcast {
+    padding: 100px;
+    margin-left: 50px;
+    /* pore remove kora lagbe */
+    line-height: 50px;
+}
+
+.present-forcast p {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.search {
+    padding: 100px;
+}
+.forecast {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 82vw;
+    height: 30vh;
+    background-color: transparent;
+    background-color: rgba(21, 38, 76, 0.7);
+    /* filter: blur(1px); */
+    border-radius: 0 0 30px 30px;
+}
+
+.forcst {
+    width: 200px;
+    height: 200px;
+    background-color: #e4e4e4;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.forcst p {
+    color: #000000;
+    font-size: 20px;
+}
+.forcst h1 {
+    font-size: 20px;
+    color: #000000;
+}
